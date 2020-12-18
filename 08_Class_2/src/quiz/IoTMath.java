@@ -1,0 +1,21 @@
+package quiz;
+
+public class IoTMath {
+   
+   static void sum(int num1, int num2) {
+      int sum=0;
+      for (int i=num1; i<=num2; ++i) {
+           sum +=i;
+
+      }
+      System.out.println(sum);
+   }
+   
+   static int abs(int num) {
+	   if(num < 0) {  //음수
+		   num= num *-1;
+	   }
+	   return num;
+   }
+
+}
